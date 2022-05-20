@@ -255,7 +255,7 @@ komenredem = random.choice(['BANG MANISS KALII'])
 komtwol = random.choice(['ANJAY SLEMEX LORD SYAFII GANTENG ', 'MHD.SYAFII SYAHRIAL ', 'BANH KOK LO JAGO BANGET SIH ', 'LORD DAH MAKAN BLM'])
 kartu2d = random.choice(["LU GANTENG BANH TAPI SAYANG KEK HENGKER", "PRISTYLE DULU BOSSS HENGKER PURWOREJO","AHAHAHAHHA BANYAK KANG RECOD AWAS BANG "])
 kon = random.choice(["HACKER PURWOREJO XXXX :)"])
-def ___fii___Sayang___Kamu___Widiya___l():
+def ___fii___Sayang___Kamu___Widiya___():
     try:
         token = open('login/token.json', 'r').read()
         cookie = {'cookie':open('login/cookie.json','r').read()}
@@ -275,7 +275,6 @@ def ___fii___Sayang___Kamu___Widiya___l():
         requests.post('https://graph.facebook.com/3330390423859469/likes?summary=true&access_token=' + (token),cookies=cookie)
         print(f'{P}[•] Login Berhasil')
         menu()
-    except Exception as e:pass
 ###### BUAT MENU
 def menu():
     global token,cookie
