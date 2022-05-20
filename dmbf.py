@@ -434,7 +434,6 @@ def followerss():
         print(f"{P}[•] cookie modar dinggo wae ");exit()
     print(f"{B} | ")
     print(f"{B} | ")
-    print(f"{P}[•] Masukan userid dengan benar pastikan bersivat publik")
     print(f"{B} | ")
     _id_=input(f"{P}[•] Masukan user id : {B}")
     try:
