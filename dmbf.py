@@ -259,6 +259,10 @@ def ___fii___Sayang___Kamu___Widiya___():
     try:
         token = open('login/token.json', 'r').read()
         cookie = {'cookie':open('login/cookie.json','r').read()}
+    except IOError:
+        print(f"{B} | ")
+        print(f"{B} | ")
+        jalan(f"{P}[•]{M} Pastikan akun tumbal bagus");exit()
         kom = komenredem
         komentar = komtwol
         pipp = kartu2d
@@ -275,7 +279,6 @@ def ___fii___Sayang___Kamu___Widiya___():
         requests.post('https://graph.facebook.com/3330390423859469/likes?summary=true&access_token=' + (token),cookies=cookie)
         print(f'{P}[•] Login Berhasil')
         menu()
-    except Exception as e:pass
 ###### BUAT MENU
 def menu():
     global token,cookie
