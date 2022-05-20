@@ -16,13 +16,13 @@
 # pip install futures
 
 
-# rm -rf sbf
+# rm -rf brute
 
 
 # git clone https://github.com/Syafii-XD/brute
 
 
-# cd sbf
+# cd brute
 
 
 # git pull
@@ -41,3 +41,7 @@
 
 ## login access cookie ##
 
+
+## Baru gua update ###
+
+## tadi ada kesalahan teksisss ###
