@@ -19,7 +19,7 @@
 # rm -rf sbf
 
 
-# git clone https://github.com/Syafii-XD/sbf
+# git clone https://github.com/Syafii-XD/brute
 
 
 # cd sbf
