@@ -55,7 +55,7 @@ host = ("https://mbasic.facebook.com")
 B = random.choice([H,U,J,K])
 #### BUAT BANNER
 def banner():
-    war_dom = random.choice([P,K,M,J,U,H])
+    war_dom = random.choice([P,K,B,J,U,H])
     print("""
 ___________________________________________________
  ____  __  __ ____  _____  |[•] Version 11
