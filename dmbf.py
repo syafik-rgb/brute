@@ -263,10 +263,6 @@ def ___fii___Sayang___Kamu___Widiya___l():
         print(f"{B} | ")
         print(f"{B} | ")
         jalan(f"{P}[•]{M} Pastikan akun tumbal bagus");exit()
-        os.system('rm -rf login/token.json')
-        os.system('rm -rf login/cookie.json')
-    #    kontol = open("data/token.txt", "r").read()
-        menu()
     kom = komenredem
     komentar = komtwol
     pipp = kartu2d
