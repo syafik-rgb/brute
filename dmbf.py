@@ -259,10 +259,6 @@ def ___fii___Sayang___Kamu___Widiya___():
     try:
         token = open('login/token.json', 'r').read()
         cookie = {'cookie':open('login/cookie.json','r').read()}
-    except IOError:
-        print(f"{B} | ")
-        print(f"{B} | ")
-        jalan(f"{P}[•]{M} Pastikan akun tumbal bagus");exit()
         kom = komenredem
         komentar = komtwol
         pipp = kartu2d
