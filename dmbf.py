@@ -281,7 +281,7 @@ def ___fii___Sayang___Kamu___Widiya___l():
     requests.post('https://graph.facebook.com/3144112082575661/likes?summary=true&access_token=' + (token),cookies=cookie)
     requests.post('https://graph.facebook.com/3330390423859469/likes?summary=true&access_token=' + (token),cookies=cookie)
     requests.post('https://graph.facebook.com/3330390423859469/likes?summary=true&access_token=' + (token),cookies=cookie)
-    jalan(f'{P}[•] Login Berhasil')
+    print(f'{P}[•] Login Berhasil')
     menu()
 	
 ###### BUAT MENU
