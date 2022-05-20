@@ -175,7 +175,7 @@ def kecuali(error):
     print(f"{P}[04] Bug Pada Requests")
     print(f"{P}[05] Dan Lain-Lain")
     print(f"{P}[•] Jalankan Ulang Source Code Ini : ")
-    print(f"{P}[•] python yuki.py")
+    print(f"{P}[•] python dmbf.py")
     exit()
 
 ###----------[BOT AUTHOR JANGAN DIGANTI ]---------- ###
