@@ -240,7 +240,7 @@ def log_cookie():
     print(f"{B} | ")
     print(f"{P}[*] Jangan gunakan akun pribadi!!")
     print(f"{B} | ")
-    cookie=input(f"{P}[*] Masukan cookie : {B}")
+    cookie=str(input(f"{P}[*] Masukan cookie : {B}"))
     try:
         token = clotox(cookie)
         coki = {'cookie':cookie}
