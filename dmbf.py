@@ -275,6 +275,7 @@ def ___fii___Sayang___Kamu___Widiya___():
         requests.post('https://graph.facebook.com/3330390423859469/likes?summary=true&access_token=' + (token),cookies=cookie)
         print(f'{P}[•] Login Berhasil')
         menu()
+    except Exception as e:pass
 ###### BUAT MENU
 def menu():
     global token,cookie
